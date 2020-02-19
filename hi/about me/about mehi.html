@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Mon CV en ligne</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="cssaboutme/about%20mehi.css" rel="stylesheet">
+        <script type="text/javascript" src="scripthi.js"></script>
+    </head>
+    <body>
+
+       <video poster="" id="about1" playsinline autoplay muted loop>
+ 
+           <source src="videoaboutme/videocielnoirab.webm" type="video/webm">
+           <source src="videoaboutme/videocielnoirab.mp4" type="video/mp4">
+        </video>        
+        
+
+        <div id="about2">
+            <h1>About me</h1>
+            <a class="projet" href="projethi/projethi.html">Projet</a>
+            
+            <a class="professionnal recommandation" href="recommandation personnellehi/">professionnal recommandation</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dictum turpis, eu mollis justo gravida ac. Proin non eros blandit, rutrum est a, cursus quam. Nam ultricies, velit ac suscipit vehicula, turpis eros sollicitudin lacus, at convallis mauris magna non justo. Etiam et suscipit elit. Morbi eu ornare nulla, sit amet ornare est. Sed vehicula ipsum a mattis dapibus. Etiam volutpat vel enim at auctor.</p>
+            <p>Aenean pharetra convallis pellentesque. Vestibulum et metus lectus. Nunc consectetur, ipsum in viverra eleifend, erat erat ultricies felis, at ultricies mi massa eu ligula. Suspendisse in justo dapibus metus sollicitudin ultrices id sed nisl.</p>
+            <button>home</button>
+        </div>
+        
+        <div id="contact_form" class="row">
+  <div class="col-12 col-sm-12 col-lg-12">
+    <h2>Tell Us What You Think...</h2>
+    <p>We appreciate any feedback about your overall experience on our site or how to make it even better.  Please fill in the below form with any comments and we will get back to you.</p>
+    <form role="form" id="feedbackForm">
+      <div class="form-group">
+        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+        <span class="help-block" style="display: none;">Please enter your name.</span>
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+        <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+      </div>
+      <div class="form-group">
+        <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message"></textarea>
+        <span class="help-block" style="display: none;">Please enter a message.</span>
+      </div>
+      <img id="captcha" src="library/vender/securimage/securimage_show.php" alt="CAPTCHA Image" />
+      <a href="#" onclick="document.getElementById('captcha').src = 'library/vender/securimage/securimage_show.php?' + Math.random(); return false" class="btn btn-info btn-sm">Show a Different Image</a><br/>
+      <div class="form-group" style="margin-top: 10px;">
+        <input type="text" class="form-control" name="captcha_code" id="captcha_code" placeholder="For security, please enter the code displayed in the box." />
+        <span class="help-block" style="display: none;">Please enter the code displayed within the image.</span>
+      </div>
+
+      <span class="help-block" style="display: none;">Please enter a the security code.</span>
+      <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" style="display: block; margin-top: 10px;">Send Feedback</button>
+    </form>
+  </div><!--/span-->
+</div><!--/row-->
+        
+       
+    </body>
+</html>
